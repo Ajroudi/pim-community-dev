@@ -16,16 +16,16 @@ use Context\Page\Base\Wizard;
 class Operation extends Wizard
 {
     protected $steps = array(
-        'Change status (enable / disable)' => 'Batch ChangeStatus',
+        'Change status'                    => 'Batch ChangeStatus',
         'Edit common attributes'           => 'Batch EditCommonAttributes',
         'Modifier les attributs communs'   => 'Batch EditCommonAttributes',
-        'Change the family of products'    => 'Batch ChangeFamily',
+        'Change family'                    => 'Batch ChangeFamily',
         'Add to groups'                    => 'Batch AddToGroups',
         'Add to a variant group'           => 'Batch AddToVariantGroup',
-        'Set attribute requirements'       => 'Batch SetAttributeRequirements',
-        'Classify products in categories'  => 'Batch Classify',
-        'Move products to categories'      => 'Batch Classify',
-        'Remove products from categories'  => 'Batch Classify'
+        'Set attributes requirements'      => 'Batch SetAttributeRequirements',
+        'Add to categories'                => 'Batch Classify',
+        'Move between categories'          => 'Batch Classify',
+        'Remove from categories'  => 'Batch Classify'
     );
 
     /**
